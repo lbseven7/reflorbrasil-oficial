@@ -60,7 +60,7 @@
             <nav class="hidden lg:flex space-x-6 text-lg font-bold">
                 <a href="#top" class="hover:text-yellow-200 transition">Início</a>
                 <a href="#portfolio" class="hover:text-yellow-200 transition">Ações</a>
-                <a href="#about" class="hover:text-yellow-200 transition">Sobre</a>
+                <a href="sobre.html" class="hover:text-yellow-200 transition">Sobre</a>
                 <a href="#youtube" class="hover:text-yellow-200 transition">Vídeos</a>
                 <a href="#blog" class="hover:text-yellow-200 transition">Blog</a>
 
@@ -73,7 +73,7 @@
     <ul class="flex flex-col space-y-4 p-4">
         <li><a href="#top" class="hover:text-yellow-200 transition text-white font-bold">Início</a></li>
         <li><a href="#portfolio" class="hover:text-yellow-200 transition text-white font-bold">Ações</a></li>
-        <li><a href="#about" class="hover:text-yellow-200 transition text-white font-bold">Sobre</a></li>
+        <li><a href="sobre.html" class="hover:text-yellow-200 transition text-white font-bold">Sobre</a></li>
         <li><a href="#youtube" class="hover:text-yellow-200 transition text-white font-bold">Vídeos</a></li>
         <li><a href="#blog" class="hover:text-yellow-200 transition text-white font-bold">Blog</a></li>
     </ul>
@@ -97,7 +97,7 @@
         <section id="portfolio" class="two container mx-auto text-center">
             <div class="container">
                 <header>
-                    <h2 class="text-3xl font-semibold text-center mb-8 mt-10">Ações do Projeto Reflor Brasil 2024</h2>
+                    <h2 class="text-3xl font-semibold text-center mb-8 mt-10">Nossos Projetos</h2>
                 </header>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -191,20 +191,16 @@
                 <div class="card bg-white p-4 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
                     <img src="images/leob.png" loading="lazy" alt="idealizador do reflorbrasil" class="w-full h-48 object-cover rounded-md mb-4" />
                     <p class="text-center text-xl font-medium text-gray-600">Léo Barbosa</p>
-                    <p class="text-center text-lg text-green-600">Desenvolvedor | Designer | Artista Plástico</p>
+                    <p class="text-center text-lg text-green-600">Desenvolvedor | Designer | Artista Plástico | Agente Cultural</p>
                 </div>
     
                 <div class="card bg-white p-4 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
                     <img src="images/vivian peq.jpg" loading="lazy" alt="idealizador do reflorbrasil" class="w-full h-48 object-cover rounded-md mb-4" />
                     <p class="text-center text-xl font-medium text-gray-600">Vivian Barbosa</p>
-                    <p class="text-center text-lg text-green-600">Assistente Social | Palestrante | Redatora</p>
+                    <p class="text-center text-lg text-green-600">Assistente Social | Palestrante | Agente Cultural</p>
                 </div>
                 
-                <div class="card bg-white p-4 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
-                    <img src="images/mudas.jpg" loading="lazy" alt="idealizador do reflorbrasil" class="w-full h-48 object-cover rounded-md mb-4" />
-                    <p class="text-center text-xl font-medium text-gray-600">Reflor Brasil</p>
-                    <p class="text-center text-lg text-green-600">Replantando Nossa História</p>
-                </div>
+               
                 
             </div>
         </div>
@@ -310,7 +306,7 @@
             return;
           }
       
-          const videos = ['VbmaH_wdOTg', 'Fg5utWn-wnQ', 'j-DxmH7RrJc', '5tjgS7w4kV8', '', '']; // Adicione os IDs dos vídeos aqui
+          const videos = ['VbmaH_wdOTg', 'Fg5utWn-wnQ', 'j-DxmH7RrJc', '5tjgS7w4kV8', 'pE3VRXeOWvQ', '']; // Adicione os IDs dos vídeos aqui
           videos.forEach((videoId, index) => {
             try {
               new YT.Player(`player${index + 1}`, {
